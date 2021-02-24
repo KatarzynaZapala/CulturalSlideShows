@@ -1,3 +1,6 @@
+/*font-family: 'Lato', sans-serif;
+font-family: 'Open Sans Condensed', sans-serif;*/
+
 * {
     margin: 0;
     padding: 0;
@@ -6,12 +9,12 @@
 
 html {
     font-size: 10px;
-    font-family: sans-serif
+    font-family: 'Lato', sans-serif;
 }
 
 body {
     font-size: 2rem;
-    max-width: 1240px;
+    /*    max-width: 1240px;*/
     margin: 0 auto;
 }
 
@@ -28,15 +31,18 @@ nav a {
     padding: 30px 20px;
     text-decoration: none;
     text-align: center;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     text-transform: uppercase;
-    color: black;
+    color: #1B3E28;
 
 }
 
 nav div {
-    font-size: 2rem;
+    font-size: 4rem;
     float: left;
+    color: #557E38;
+    font-style: italic;
+    font-weight: 700;
 }
 
 .btn5 {
@@ -45,22 +51,42 @@ nav div {
     margin-left: 90px;
     margin-right: 20px;
 */
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     padding: 20px 70px;
     margin-left: 30px;
     margin-right: 20px;
 }
 
 header {
-    min-height: 400px;
-    width: 100vw;
-    background-color: #999;
+    height: 40vh;
+    background-image: url(../assets/road-4564817_1280.jpg);
+    /*
+    background-repeat: no-repeat;
+    background-position: center;
+*/
+    background-size: cover;
+
+    font-style: italic;
+    text-transform: inherit;
+
+}
+
+header h1 {
+    font-size: 6rem;
+    color: #fffa4f;
+    padding-left: 20px;
+    line-height: 60vh;
+    background-color: rgba(0, 0, 0, 10%);
 
 }
 
 main {
     min-height: 600px;
     background-color: #eee;
+}
+
+main p {
+    font-family: 'Open Sans Condensed', sans-serif;
 }
 
 footer {
