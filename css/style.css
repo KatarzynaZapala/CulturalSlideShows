@@ -31,12 +31,13 @@ body {
 
 nav a {
     display: inline-block;
-    padding: 20px 20px 10px;
+    padding: 30px 20px 10px;
     text-decoration: none;
     text-align: center;
     font-size: 1.5rem;
     text-transform: uppercase;
     color: #1B3E28;
+    margin-bottom: 20px;
     /*    font-family: 'Open Sans Condensed',
     sans-serif;
     */
@@ -46,19 +47,30 @@ nav a:hover {
     border-bottom: 1px solid #132c1d;
     color: #09150e;
     font-size: 1.6rem;
-    ;
+
 
 }
 
 .slogan {
+    display: inline-block;
     font-size: 4rem;
     float: left;
     color: #557E38;
     font-style: italic;
     font-weight: 700;
     letter-spacing: 4px;
+    padding-top: 10px;
+    text-transform: lowercase;
+
 
 }
+
+.slogan:hover {
+    border-bottom: none;
+    font-size: 4rem;
+
+}
+
 
 .btn5 {
     border: 1px solid #1B3E28;
@@ -74,25 +86,23 @@ nav a:hover {
 }
 
 header {
-    height: 35vh;
+    height: 50vh;
     background-image: url(../assets/road-4564817_1280.jpg);
-    /*
-    background-repeat: no-repeat;
-    background-position: center;
-*/
     background-size: cover;
     min-width: 860px;
-    font-style: italic;
+    /*        font-style: italic;*/
     text-transform: inherit;
+
 
 }
 
 header h1 {
     display: inline-block;
-    padding-top: 200px;
+    padding-top: 25vh;
     font-size: 6rem;
+    font-weight: 300;
     color: #fffa4f;
-    padding-left: 20px;
+    padding-left: 230px;
     /*    line-height: 60vh;*/
     background-color: rgba(0, 0, 0, 10%);
 
@@ -117,37 +127,75 @@ main p {
     text-align: center;
     display: inline-block;
     width: 1240px;
+
     /*    font-family: 'Open Sans Condensed', sans-serif;*/
 
-    font-size: 1.7rem;
+    font-size: 2rem;
     font-family: 'Lato', sans-serif;
-    padding: 30px 50px 10px;
+    padding: 50px 238px;
     text-align: justify;
-    text-align-last: center;
-
-}
-
-
-main p + p {
-    font-size: 1.9rem;
-    ;
-    color: black font-size: 2.8rem;
-    padding-bottom: 30px;
+    /*    text-align-last: center;
+    */
+    line-height: 3rem;
 
 
 }
 
-.text p span {
+
+
+.motto {
+    width: 100vw;
+    height: 100px;
+
+    background-color: #1B3E28;
+    color: white;
+    font-size: 2.8rem;
+    /*    padding-bottom: 30px;*/
+    text-align: center;
+    letter-spacing: 1px;
+
+
+}
+
+.motto p {
+    margin: 0;
+    padding: 15px 0;
+
+}
+
+.motto p span {
     font-style: italic;
     font-size: 1.5rem;
-    line-height: inherit;
-    ;
+    letter-spacing: 1px;
+
+
+
+
+
 }
 
 .travels {
     max-width: 1240px;
     margin: 0 auto;
     background-color: #fff;
+    font-size: 0;
+
+}
+
+.travel {
+    display: inline-block;
+    width: 25%;
+    background-color: #ddd;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.travel div {
+    margin: 10px auto;
+    width: 280px;
+    height: 280px;
+    background-color: #eee;
 
 }
 
