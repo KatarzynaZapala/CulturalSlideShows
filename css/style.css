@@ -227,17 +227,20 @@ main p {
     height: 40px;
     width: 200px;
     background-color: #d2d6cf;
-    cursor: pointer;
+    border: 1px solid;
+    border-radius: 50px;
+    text-align: center;
+    text-decoration: none;
     font-size: 2rem;
     font-family: 'Lato', sans-serif;
     color: #4a6f30;
-    border: 1px solid;
-    border-radius: 50px;
     cursor: pointer;
-    text-align: center;
-    text-decoration: none;
-    margin: o auto;
+    padding-top: 5px;
+}
 
+.btn a:hover {
+    background-color: #4a6f30;
+    color: #d2d6cf;
 
 }
 
