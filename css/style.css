@@ -63,7 +63,7 @@ nav a:hover {
     letter-spacing: 4px;
     padding-top: 10px;
     text-transform: lowercase;
-
+    transition: 1s;
 
 }
 
@@ -79,6 +79,7 @@ nav a:hover {
     font-size: 1.7rem;
     padding: 10px 70px;
     margin-left: 30px;
+    transition: 1s;
 }
 
 .btn5:hover {
@@ -198,6 +199,7 @@ main p {
 
     /*    margin-top: 30px;*/
     /*    margin-bottom: 50px;*/
+
 }
 
 .travel div {
@@ -207,41 +209,74 @@ main p {
 
     margin: 50px auto 50px;
 
-
-}
-
-.travel h2 {
-    text-align: center;
-    font-family: 'Lato', sans-serif;
-    font-weight: 700;
-    color: #4a6f30;
-    font-size: 2rem;
-    font-weight: 400;
-
-
 }
 
 .foto1 {
     background-image: url(../assets/italy-2273767_1280.jpg);
+    background-size: cover;
+    transition: .4s;
+}
 
+.foto1:hover {
+    background-image: url(../assets/cafe-3537801_1280.jpg);
     background-size: cover;
 
 }
 
 .foto2 {
-    background-image: url(../assets/taj-mahal-3654227_1280.jpg);
+
+    background-image: url(../assets/matterhorn-3019429_1280.jpg);
+    background-size: cover;
+    transition: .4s;
+}
+
+.foto2:hover {
+    background-image: url(../assets/landscape-540122_1280.jpg);
     background-size: cover;
 }
 
 .foto3 {
     background-image: url(../assets/battleship-389274_1280.jpg);
     background-size: cover;
+    transition: .4s;
 }
 
-.foto4 {
-    background-image: url(../assets/matterhorn-3019429_1280.jpg);
+.foto3:hover {
+    background-image: url(../assets/bunker-622515_1280.jpg);
     background-size: cover;
 }
+
+
+.foto4 {
+    background-image: url(../assets/taj-mahal-3654227_1280.jpg);
+    background-size: cover;
+    transition: .4s;
+}
+
+.foto4:hover {
+    background-image: url(../assets/kyoto-1976538_1280.jpg);
+    background-size: cover;
+}
+
+
+.travel a {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    color: #4a6f30;
+    font-size: 2rem;
+    font-weight: 400;
+    text-decoration: none;
+
+}
+
+.travel a:hover {
+
+    color: #192610;
+}
+
 
 footer {
     height: 70px;
