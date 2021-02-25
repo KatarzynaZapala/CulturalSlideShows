@@ -49,7 +49,7 @@ nav a:hover {
     padding-top: 10px;
     float: left;
     text-transform: lowercase;
-    font-size: 4rem;
+    font-size: 3rem;
     font-style: italic;
     font-weight: 700;
     letter-spacing: 4px;
@@ -59,7 +59,7 @@ nav a:hover {
 
 .slogan:hover {
     border-bottom: none;
-    font-size: 4rem;
+    font-size: 3.1rem;
 }
 
 .btn5 {
@@ -107,7 +107,7 @@ main {
 main p {
     display: inline-block;
     width: 1240px;
-    padding: 50px 238px;
+    padding: 50px 225px;
     text-align: center;
     font-size: 2rem;
     font-family: 'Lato', sans-serif;
@@ -235,7 +235,7 @@ main p {
     font-family: 'Lato', sans-serif;
     color: #4a6f30;
     cursor: pointer;
-    padding-top: 5px;
+    padding-top: 6px;
 }
 
 .btn a:hover {
