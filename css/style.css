@@ -6,7 +6,6 @@ font-family: 'Open Sans Condensed', sans-serif;*/
     padding: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
-
 }
 
 html {
@@ -15,200 +14,144 @@ html {
 }
 
 body {
-    font-size: 2rem;
-    /*    max-width: 1240px;*/
     margin: 0 auto;
-
+    font-size: 2rem;
 }
-
 
 .menu {
     max-width: 1240px;
     min-width: 1185px;
     margin: 0 auto;
+    padding: 10px 0;
     font-size: 0;
     text-align: right;
-    padding: 10px 0;
-
 }
 
 nav a {
     display: inline-block;
     padding: 25px 20px 10px;
-    text-decoration: none;
-    text-align: center;
+    margin-bottom: 15px;
     font-size: 1.5rem;
+    text-align: center;
+    text-decoration: none;
     text-transform: uppercase;
     color: #1B3E28;
-    margin-bottom: 15px;
 }
 
 nav a:hover {
     border-bottom: 1px solid #132c1d;
-    color: #09150e;
     font-size: 1.6rem;
-
-
+    color: #09150e;
 }
 
 .slogan {
     display: inline-block;
-    font-size: 4rem;
+    padding-top: 10px;
     float: left;
-    color: #557E38;
-
-
+    text-transform: lowercase;
+    font-size: 4rem;
     font-style: italic;
     font-weight: 700;
     letter-spacing: 4px;
-    padding-top: 10px;
-    text-transform: lowercase;
+    color: #557E38;
     transition: 1s;
-
 }
 
 .slogan:hover {
     border-bottom: none;
     font-size: 4rem;
-
 }
-
 
 .btn5 {
     border: 1px solid #1B3E28;
-    font-size: 1.7rem;
-    padding: 10px 70px;
     margin-left: 30px;
+    padding: 10px 70px;
+    font-size: 1.7rem;
     transition: 1s;
 }
 
 .btn5:hover {
     background-color: #a3a032;
     color: white;
-
 }
 
 header {
     height: 55vh;
-    background-image: url(../assets/road-4564817_1280.jpg);
-
-    background-size: cover;
     min-width: 860px;
-    /*        font-style: italic;*/
+    background-image: url(../assets/road-4564817_1280.jpg);
+    background-size: cover;
     text-transform: inherit;
-
-
 }
 
 header h1 {
     display: inline-block;
-    line-height: 55vh;
     width: 100vw;
     padding-top: 200px;
+    padding-left: 300px;
     font-size: 5rem;
     font-weight: 300;
     color: #fffa4f;
-    padding-left: 300px;
-
-    /*    background-color: rgba(0, 0, 0, 20%);*/
-
+    line-height: 55vh;
 }
 
 main {
-
     margin: 0 auto;
 }
 
 .text {
-    /*    background-color: #eee;*/
     max-width: 1240px;
     margin: 0 auto;
     color: #4a6f30;
-
-
-
 }
 
 main p {
-    text-align: center;
     display: inline-block;
     width: 1240px;
-
-    /*    font-family: 'Open Sans Condensed', sans-serif;*/
-
+    padding: 50px 238px;
+    text-align: center;
     font-size: 2rem;
     font-family: 'Lato', sans-serif;
-    padding: 50px 238px;
-    text-align: justify;
-    /*    text-align-last: center;
-    */
     line-height: 3rem;
-
-
 }
-
-
 
 .motto {
     width: 100vw;
     height: 90px;
-
     background-color: #1B3E28;
-    color: white;
-    font-size: 2.8rem;
-    /*    padding-bottom: 30px;*/
     text-align: center;
+    font-size: 2.8rem;
     letter-spacing: 1px;
-
-
+    color: white;
 }
 
 .motto p {
     margin: 0;
     padding: 15px 0;
     text-align: center;
-
 }
 
 .motto p span {
-    font-style: italic;
     font-size: 1.5rem;
+    font-style: italic;
     letter-spacing: 1px;
-
-
-
-
-
-
 }
 
 .travels {
     max-width: 1240px;
     margin: 70px auto 100px;
-    /*    background-color: #fff;*/
     font-size: 0;
-
-
 }
 
 .travel {
     display: inline-block;
     width: 25%;
-    /*    background-color: #ddd;*/
     font-size: 1.5rem;
-
-    /*    margin-top: 30px;*/
-    /*    margin-bottom: 50px;*/
-
 }
 
 .travel div {
-    /*    margin: 100px auto 30px;*/
     width: 280px;
     height: 280px;
-
     margin: 50px auto 50px;
-
 }
 
 .foto1 {
@@ -220,11 +163,9 @@ main p {
 .foto1:hover {
     background-image: url(../assets/cafe-3537801_1280.jpg);
     background-size: cover;
-
 }
 
 .foto2 {
-
     background-image: url(../assets/matterhorn-3019429_1280.jpg);
     background-size: cover;
     transition: .4s;
@@ -263,31 +204,57 @@ main p {
     display: inline-block;
     width: 100%;
     text-align: center;
-    font-family: 'Lato', sans-serif;
-    font-weight: 700;
-    color: #4a6f30;
-    font-size: 2rem;
-    font-weight: 400;
     text-decoration: none;
-
+    font-size: 2rem;
+    font-family: 'Lato', sans-serif;
+    color: #4a6f30;
+    font-weight: 400;
 }
 
 .travel a:hover {
-
     color: #192610;
 }
 
+.btn {
+    width: 100%;
+    margin: 100px 0;
+    text-align: center;
+
+}
+
+.btn a {
+    display: inline-block;
+    height: 40px;
+    width: 200px;
+    background-color: #d2d6cf;
+    cursor: pointer;
+    font-size: 2rem;
+    font-family: 'Lato', sans-serif;
+    color: #4a6f30;
+    border: 1px solid;
+    border-radius: 50px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    margin: o auto;
+
+
+}
 
 footer {
     height: 70px;
     background-color: #333;
     text-align: center;
-
 }
 
 footer a {
-    color: #fffa4f;
     text-decoration: none;
     font-family: 'Lato', sans-serif;
-    line-height: 70px;
     font-weight: 300;
+    line-height: 70px;
+    color: #fffa4f;
+}
+
+footer a:hover {
+    color: darkorange;
+}
