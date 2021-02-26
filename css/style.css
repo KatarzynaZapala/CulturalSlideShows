@@ -51,7 +51,7 @@ nav a:hover {
     font-weight: 700;
     letter-spacing: .4rem;
     color: #557E38;
-    transition: 1s;
+    transition: .3s;
 }
 
 .slogan:hover {
@@ -84,7 +84,7 @@ header {
 header h1 {
     display: inline-block;
     width: 100vw;
-    padding-top: 16.5rem;
+    padding-top: 13.5rem;
     padding-left: 30rem;
     font-size: 5rem;
     font-weight: 300;
