@@ -20,18 +20,19 @@ body {
     min-width: 118.5rem;
     margin: 0 auto;
     padding: 1rem 0;
-    font-size: 0;
     text-align: right;
+    font-size: 0;
+
 }
 
 nav a {
     display: inline-block;
-    padding: 2.5rem 2rem 1rem;
     margin-bottom: 1rem;
-    font-size: 1.5rem;
+    padding: 2.5rem 2rem 1rem;
     text-align: center;
     text-decoration: none;
     text-transform: uppercase;
+    font-size: 1.5rem;
     color: #1B3E28;
 }
 
@@ -43,8 +44,8 @@ nav a:hover {
 
 .slogan {
     display: inline-block;
-    padding-top: 1rem;
     float: left;
+    padding-top: 1rem;
     text-transform: lowercase;
     font-size: 3rem;
     font-style: italic;
@@ -60,17 +61,17 @@ nav a:hover {
 }
 
 .btn5 {
-    border: .1rem solid #1B3E28;
     margin-left: 3rem;
     padding: 1rem 7rem;
+    border: .1rem solid #1B3E28;
     font-size: 1.7rem;
     transition: 1s;
 }
 
 .btn5:hover {
     background-color: #a3a032;
-    color: white;
     font-size: 1.7rem;
+    color: white;
 }
 
 header {
@@ -88,8 +89,8 @@ header h1 {
     padding-left: 30rem;
     font-size: 5rem;
     font-weight: 300;
-    color: #fffa4f;
     line-height: 50vh;
+    color: #fffa4f;
 }
 
 main {
