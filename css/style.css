@@ -34,11 +34,12 @@ nav a {
     text-transform: uppercase;
     font-size: 1.5rem;
     color: #1B3E28;
+    transition: .3s;
 }
 
 nav a:hover {
     border-bottom: .1rem solid #132c1d;
-    font-size: 1.6rem;
+    font-size: 1.5rem;
     color: #09150e;
 }
 
@@ -65,11 +66,12 @@ nav a:hover {
     padding: 1rem 7rem;
     border: .1rem solid #1B3E28;
     font-size: 1.7rem;
-    transition: 1s;
+    transition: .7s;
 }
 
 .btn5:hover {
     background-color: #a3a032;
+    border-color: #a3a032;
     font-size: 1.7rem;
     color: white;
 }
@@ -264,6 +266,7 @@ main p {
 .btn a:hover {
     background-color: #4a6f30;
     color: #d2d6cf;
+    border-color: #4a6f30;
 
 }
 
