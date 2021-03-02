@@ -157,7 +157,7 @@ main p {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    transition: .4s;
+    transition: .3s;
 }
 
 .foto1:hover {
@@ -174,7 +174,7 @@ main p {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    transition: .4s;
+    transition: .3s;
 }
 
 .foto2:hover {
@@ -191,7 +191,7 @@ main p {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    transition: .4s;
+    transition: .3s;
 
 }
 
@@ -209,7 +209,7 @@ main p {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    transition: .4s;
+    transition: .3s;
 }
 
 .foto4:hover {
