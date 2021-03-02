@@ -155,46 +155,70 @@ main p {
 .foto1 {
     background-image: url(../assets/italy-2273767_1280.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     transition: .4s;
 }
 
 .foto1:hover {
     background-image: url(../assets/cafe-3537801_1280.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+
 }
 
 .foto2 {
     background-image: url(../assets/matterhorn-3019429_1280.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     transition: .4s;
 }
 
 .foto2:hover {
     background-image: url(../assets/landscape-540122_1280.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+
 }
 
 .foto3 {
     background-image: url(../assets/battleship-389274_1280.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     transition: .4s;
+
 }
 
 .foto3:hover {
     background-image: url(../assets/bunker-622515_1280.jpg);
+    background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
+
 }
 
 
 .foto4 {
     background-image: url(../assets/taj-mahal-3654227_1280.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     transition: .4s;
 }
 
 .foto4:hover {
     background-image: url(../assets/kyoto-1976538_1280.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+
 }
 
 
