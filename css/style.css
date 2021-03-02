@@ -34,7 +34,7 @@ nav a {
     text-transform: uppercase;
     font-size: 1.5rem;
     color: #1B3E28;
-    transition: .3s;
+    transition: .2s;
 }
 
 nav a:hover {
